@@ -20,10 +20,11 @@ main {
 section {
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #f0f0f0d2;
     text-align: center;
     padding: 100px;
     margin: 20px 0;
+    
 }
 
 footer {
@@ -32,3 +33,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
