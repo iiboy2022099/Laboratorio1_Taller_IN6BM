@@ -1,15 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(4, 132, 192);
+    font-family: Arial, sans-serif;
+    background-image: url('../imagenes/fondoKinal.png')
 }
 
+.logo {
+    display: flex;
+    top: 50px;
+    right: 50px;
+    align-items: end;
+}
+
+
 header {
-    background-color: #0920ee;
-    color: #fff;
-    text-align: center;
+    background-color: #040c5c;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 main {
@@ -25,6 +63,85 @@ section {
     margin: 20px 0;
     
 }
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#seccion1 {
+    background-image: url('../imagenes/fondok.jpg');
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+#seccion2, #seccion3 {
+    background-color: bisque;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #fff; 
+}
+
+.overlay-text h1,
+.overlay-text p.subtle-text {
+    color: #fff;
+    font-family: 'Cursive', sans-serif; 
+    font-style: italic; 
+}
+
+.overlay-text p.subtle-text {
+    margin-top: 10px;
+}
+
+#seccion2 {
+    background-color: rgba(255, 228, 196, 0.363);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    position: relative;
+    margin: 10px;
+    max-width: 300px; 
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ffa500; 
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    max-width: 300px; 
+    text-align: center;
+    padding: 20px;
+}
 
 
 
@@ -34,7 +151,7 @@ section:hover{
 }
 
 footer {
-    background-color: #940606;
+    background-color: #061b94;
     color: #fff;
     text-align: center;
     padding: 10px;
