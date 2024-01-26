@@ -12,6 +12,11 @@ header {
     text-align: center;
     padding: 20px;
 }
+#transper{
+  text-align: center;
+  color: #181414;
+  background-color: #b6b0b0;
+}
 
 main {
     padding: 20px;
@@ -20,14 +25,11 @@ main {
 section {
     background-size: cover;
     background-position: center;
-    color: #faf7f7;
     text-align: center;
     padding: 100px;
     margin: 20px 0;
     
 }
-
-
 
 section:hover{
     transform: scale(1.05);
