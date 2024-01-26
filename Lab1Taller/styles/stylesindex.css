@@ -1,53 +1,34 @@
 
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    block-size: 8;
-    color: #fffcea;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    background: rgb(2,0,36);
-    background: rgb(2,0,36);
-    background: rgb(2,0,36);
-    background: #2050d3;
-    
+    padding: 0;
+    background-color: rgb(136, 113, 103);
 }
 
-.futball{
-    background-image: url(imagenes/fondoFutball.png);
+header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 50px;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.1);
-    
-}
-
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    block-size: 5;
-    font-family: "Magz";
-    color: #fffcea;
+    padding: 20px;
 }
 
 main {
-    max-width: 1100px;
-    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
