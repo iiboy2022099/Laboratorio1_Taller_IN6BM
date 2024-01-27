@@ -14,7 +14,7 @@ body {
 
 
 header {
-    background-color: #040c5c;
+    background-color: #e7aa3a;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -24,19 +24,6 @@ header {
 .logo img {
     width: 100px;
     height: auto;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .nav-links li {
@@ -50,6 +37,11 @@ nav {
     font-size: 18px;
 }
 
+nav a:hover {
+    background-color: #ca7615;
+    color: black;
+}
+
 main {
     padding: 20px;
 }
@@ -59,17 +51,14 @@ section {
     background-position: center;
     color: #faf7f7;
     text-align: center;
-    padding: 100px;
-    margin: 20px 0;
-    
-}
-section {
     padding: 100px 0;
+    margin: 20px 0;
     text-align: center;
+    
 }
 
 #seccion1 {
-    background-image: url('../imagenes/fondok.jpg');
+    background-image: url('../imagenes/img-kinal.png');
     width: 100%;
     height: 400px;
     text-align: center;
@@ -77,32 +66,6 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     position: relative; 
-}
-
-#seccion2, #seccion3 {
-    background-color: bisque;
-}
-
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #fff; 
-}
-
-.overlay-text h1,
-.overlay-text p.subtle-text {
-    color: #fff;
-    font-family: 'Cursive', sans-serif; 
-    font-style: italic; 
-}
-
-.overlay-text p.subtle-text {
-    margin-top: 10px;
 }
 
 #seccion2 {
@@ -127,7 +90,7 @@ section {
 .image-box img {
     width: 100%;
     height: auto;
-    border: 5px solid #ffa500; 
+    border: 5px solid #f0f1ec; 
 }
 
 .description-container {
@@ -143,15 +106,13 @@ section {
     padding: 20px;
 }
 
-
-
 section:hover{
     transform: scale(1.05);
     transition: transform 0.3s;
 }
 
 footer {
-    background-color: #061b94;
+    background-color: #db9a0e;
     color: #fff;
     text-align: center;
     padding: 10px;
