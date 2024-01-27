@@ -23,12 +23,12 @@ section {
     text-align: center;
     padding: 100px;
     margin: 20px 0;
-    
+
 }
 
 
 
-section:hover{
+section:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
 }
@@ -50,7 +50,7 @@ img {
     display: block;
     transition: transform 0.3s;
 }
- 
+
 img:hover {
     transform: scale(1.1);
 }
